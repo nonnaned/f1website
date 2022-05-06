@@ -1,6 +1,4 @@
-/* alap stílus */
 
-/*betűtípus importálás*/
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
 
 
@@ -37,10 +35,6 @@ h2.ov {
     color:black;
 }
 
-table, th, td {
-	border:1px solid black;
-  }
- 
  table.a {
 	table-layout: fixed;
 	width: 100%;
@@ -161,7 +155,7 @@ header nav a, #header div a {
 }
 
 header nav a:link, #header div a:link {color:rgb(255, 255, 255);}						
-header nav a:visited,#header div a:visited  {color:rgb(146, 145, 145);}						
+header nav a:visited,#header div a:visited  {color:rgb(196, 195, 195);}						
 header nav a:hover, #header div a:hover {text-decoration:underline}			
 
 
