@@ -1,0 +1,182 @@
+/* alap stílus */
+
+/*betűtípus importálás*/
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+
+
+aside {
+    width: 30%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+
+
+
+.top { vertical-align: top; }
+.bottom { vertical-align: bottom; }
+
+
+h2.ov {
+    font-family: 'Racing Sans One', sans-serif; 
+	text-shadow:3px 3px 3px rgb(187, 186, 186);	
+	margin-left: 1%; 
+    color:black;
+}
+
+table, th, td {
+	border:1px solid black;
+  }
+ 
+ table.a {
+	table-layout: fixed;
+	width: 100%;
+  }
+  
+  div.galeria {
+	width: 40%;
+	height: 200px;
+	margin: auto;
+	
+  }
+td.autok
+{
+height: 300px;
+padding: 1%;
+
+}
+img.felszereles
+{
+	border-radius: 20%;
+}
+  td {
+	text-align: left;
+	vertical-align: top;
+  }
+
+ video.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  .rgcrash{
+
+	text-align: center; 
+}
+  
+body {
+	font-family:  sans-serif; 
+	background-color:rgb(0, 0, 0);						
+	background-image:url('../kepek/background.png');
+}
+
+h1,h2,h3 {
+    font-family: 'Racing Sans One', sans-serif; 
+	text-shadow:3px 3px 3px rgb(187, 186, 186);	
+	margin-left: 1%; 
+}
+
+.menu
+{
+	font-family: 'Racing Sans One', sans-serif;
+	color: white;
+}
+header, main, footer, #header, #tartalom, #footer {
+	width:70%;				
+	min-width:400px;		
+	max-width:1000px;		
+	margin-left:auto;		
+	margin-right:auto;
+	margin-top:0;			
+	margin-bottom:0;		
+	background-color:rgb(255, 255, 255);	
+	padding:10px;			
+	}
+	
+header, footer, #header, #footer {opacity:0.9;}	
+	
+header, #header {
+	border-radius: 10px 10px 0 0 ; 		
+	padding-bottom:0;					
+	position:relative;				    
+	
+	}
+
+footer, #footer  {
+	border-radius: 0 0 10px 10px; 
+	}	
+
+
+
+article, .article  {
+	margin:0 2em;				
+	padding-bottom:20px;	
+	overflow:hidden; 				
+}
+
+footer p,#footer p {text-align:center}	
+
+article:last-of-type, .article:last-of-type {border:0;}	
+
+header nav, #header div {
+	background-color:rgba(212, 0, 0, 0.938); 			
+	padding:5px 5px 5px 10px;		
+	margin-left:-10px;			
+	margin-right:-10px;				
+	}
+
+
+article+nav, .article+div.nav {		
+	text-align:right; 				
+	padding-right:30px;				
+	margin-bottom:20px;				
+	}
+
+a[href="#oldalmenu"]	{text-decoration:none; }  
+	
+header nav  ul  li, #header div  ul  li  {
+	display:inline;			
+	white-space: nowrap;	
+	}
+
+header nav a, #header div a {
+	text-decoration:none;		
+	font-variant:small-caps;	
+	font-size:1.3em;			
+	margin-right:1em;			
+}
+
+header nav a:link, #header div a:link {color:rgb(255, 255, 255);}						
+header nav a:visited,#header div a:visited  {color:rgb(146, 145, 145);}						
+header nav a:hover, #header div a:hover {text-decoration:underline}			
+
+
+
+
+#gyengenlato {			
+	position:absolute; 		
+	width: 150px;	
+	height: 70px;		
+	right:20px;				
+	top:60px;				
+		
+	border-radius: 0 0 0 0; 
+	}
+
+
+
+a#normalbetu {display: none;}

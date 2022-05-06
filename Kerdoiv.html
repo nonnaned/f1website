@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>F1 - Véleményfelmérés</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/alapstilus.css" title="normal">
+	<link rel="alternate stylesheet" type="text/css" href="css/nagybetus.css" title="nagybetus">
+	<script src="scripts/styleswitcher.js"></script>
+</head>
+<body>
+
+<header>
+	<img src="kepek/logo.png" width="150" alt="F1 logo">
+	<nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+	<a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+	</nav>
+	<nav id="oldalmenu">
+	   <ul>
+        <li><a class="menu" href="index.html"><span></span>Rövid Történet</a></li> 
+        <li><a class="menu"  href="vilagbajnokok.html"><span ></span>Világbajnokok 2006 és 2021 között</a></li>
+        <li><a class="menu"  href="autok.html"><span ></span>Autók 2021-ben és 2022-ben</a></li>
+        <li><a class="menu"  href="Kerdoiv.html"><span ></span>Véleményfelmérés</a></li>
+	   </ul>
+	</nav>
+</header>
+
+<main id="tartalom">
+<article>
+
+    <form action="olahb34@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>Kerdőív</legend>
+            <p>Kik a kedvenc f1-es csapataid<br>
+              <input type="checkbox" name="csapat" id="Ferrari" value="1">
+              <label for="Ferrari">Ferrari</label><br>
+              <input type="checkbox" name="csapat" id="Redbull" value="1">
+              <label for="Redbull">Red Bull Racing</label><br>
+              <input type="checkbox" name="csapat" id="Mercedes" value="1">
+              <label for="Mercedes">Mercedes</label><br>
+              <input type="checkbox" name="csapat" id="McLaren" value="1">
+              <label for="McLaren">McLaren</label><br>
+              <input type="checkbox" name="csapat" id="AlfaRomeo" value="1">
+              <label for="AlfaRomeo">Alfa Romeo</label><br>
+              <input type="checkbox" name="csapat" id="Alpine" value="1">
+              <label for="Alpine">Alpine</label><br>
+              <input type="checkbox" name="csapat" id="AlphaTauri" value="1">
+              <label for="AlphaTauri">AlphaTauri</label><br>
+              <input type="checkbox" name="csapat" id="Haas" value="1">
+              <label for="Haas">Haas F1 Team</label><br>
+              <input type="checkbox" name="csapat" id="AstonMartin" value="1">
+              <label for="AstonMartin">Aston Martin</label><br>
+              <input type="checkbox" name="csapat" id="Williams" value="1">
+              <label for="Williams">Williams</label><br> 
+            </p>
+            
+        </fieldset>	
+        <fieldset>
+            <p>Szerinted jobb lesz a 2022-es szezon mint a 2021-es<br>
+                <input type="radio" name="igen" id="igen" value="1">
+                <label for="igen">Ferrari</label><br>
+                <input type="radio" name="nem" id="nem" value="1">
+                <label for="nem">Red Bull Racing</label><br>
+
+        </fieldset>
+        <fieldset>
+            <label for="2023velemeny"><strong>Te mit szeretnél látni a 2023-as szezonban</strong></label><br>
+            <textarea cols="60" rows="10" name="textarea" id="2023velemeny" placeholder="például: standard motor alkatrészeket hogy egyenlőbb legyen a versenyzés"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Az adataid</legend>
+            <label for="nev"><strong>Név</strong></label><br>
+            <input type="text" name="nev" id="nev" size="40"><br>
+            <label for="email"><strong>E-mail cím</strong></label><br>
+            <input type="email" name="email" id="email" size="40"><br>
+            <input type="checkbox" name="hirlevel" id="hirlevel" value="igen">
+            <label for="hirlevel">Fel szeretnék jelentkezni egy formula 1-es rajongói hirlevélre</label>
+             
+        </fieldset>
+        <fieldset>
+            <legend>Adatok elküldése</legend>
+            <input type="submit" value="Elküld">
+            <input type="reset" value="Töröl">
+        </fieldset>
+        
+        </form>
+
+
+
+    </article>
+    </main>
+    </body>
+    </html>
